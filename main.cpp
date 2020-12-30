@@ -1,6 +1,10 @@
 #include <iostream>
+#include "Eigen/Dense"
+#include "function_util.h"
+
+using Eigen::MatrixXd;
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    solve(3);
     return 0;
 }
