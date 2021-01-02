@@ -1,0 +1,8 @@
+#ifndef ACOUSTIC_VIBRATIONS_SOLVER_MAIN_CALCULATIONS_H
+#define ACOUSTIC_VIBRATIONS_SOLVER_MAIN_CALCULATIONS_H
+
+class FunctionCombination;
+
+FunctionCombination solve(int number_of_parts);
+
+#endif //ACOUSTIC_VIBRATIONS_SOLVER_MAIN_CALCULATIONS_H
